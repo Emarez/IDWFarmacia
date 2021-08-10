@@ -1,5 +1,5 @@
 # IDWFarmacia
-Proyecto de IDW  sobre el desarrolo web de una farmacia, hecho por Emerson Alvarez y Sebastian Riaza
+Proyecto de IDW  sobre el desarrollo web de una farmacia, hecho por Emerson Alvarez y Sebastian Riaza
 
 Introducción
 
