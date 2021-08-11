@@ -22,3 +22,10 @@ Objetivos específicos:
 - Diseño del flujo de navegacion y la interaccion con los usuarios del sitio web.
 - Desarrollo de las principales vistas front-end (log-in, home y carrito de compras)
 - Diseñar los mock-ups del aplicativo web
+
+
+![Vista_Inicio](https://user-images.githubusercontent.com/87957492/129115511-b9de05d3-47f6-423b-a0cb-18aed32ac196.JPG)
+![Vista_ResultadoBusqueda](https://user-images.githubusercontent.com/87957492/129115519-3600cca9-4a07-4766-991d-df27a8d60d26.JPG)
+![Vista_Carrito](https://user-images.githubusercontent.com/87957492/129115523-a1090b11-f597-4cb0-b96b-20fdee28714b.JPG)
+![Vista_InicioSesion](https://user-images.githubusercontent.com/87957492/129115533-dc4b71bc-2b9e-449b-bc26-6fecb8326eab.JPG)
+![Vista_Registrarse](https://user-images.githubusercontent.com/87957492/129115535-a8211acd-40f6-4809-afc7-b1b0fb755bc5.JPG)
