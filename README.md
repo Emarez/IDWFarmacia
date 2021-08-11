@@ -23,6 +23,7 @@ Objetivos específicos:
 - Desarrollo de las principales vistas front-end (log-in, home y carrito de compras)
 - Diseñar los mock-ups del aplicativo web
 
+Mockups
 
 ![Vista_Inicio](https://user-images.githubusercontent.com/87957492/129115511-b9de05d3-47f6-423b-a0cb-18aed32ac196.JPG)
 ![Vista_ResultadoBusqueda](https://user-images.githubusercontent.com/87957492/129115519-3600cca9-4a07-4766-991d-df27a8d60d26.JPG)
