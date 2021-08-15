@@ -30,3 +30,7 @@ Mockups
 ![Vista_Carrito](https://user-images.githubusercontent.com/87957492/129115523-a1090b11-f597-4cb0-b96b-20fdee28714b.JPG)
 ![Vista_InicioSesion](https://user-images.githubusercontent.com/87957492/129115533-dc4b71bc-2b9e-449b-bc26-6fecb8326eab.JPG)
 ![Vista_Registrarse](https://user-images.githubusercontent.com/87957492/129115535-a8211acd-40f6-4809-afc7-b1b0fb755bc5.JPG)
+
+Estado del arte
+
+- Rappi: Es una compañía multinacional colombiana que actúa como portal de contacto, una de las características que define Rappi es la ancha gama de productos y servicios disponibles para la entrega, en palabras de su cofundador, busca ser una “tienda de todo”. La aplicación móvil permite a los consumidores pedir domicilio de su supermercado, comida y medicamentos de farmacias entre otras funciones.
