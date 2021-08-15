@@ -1,5 +1,5 @@
 # IDWFarmacia
-Proyecto de IDW  sobre un aplicativo web de una farmacia online, hecho por Emerson ´Álvarez y Sebastian Riaza Álvarez
+Proyecto de IDW  sobre un aplicativo web de una farmacia online, hecho por Emerson Álvarez y Sebastian Riaza Álvarez
 
 Introducción
 
