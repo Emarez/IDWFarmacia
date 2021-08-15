@@ -23,10 +23,6 @@ Objetivos específicos:
 - Desarrollo de las principales vistas front-end del aplicativo web (sign-in, sign-up, home y carrito de compras)
 - Diseñar los mock-ups del aplicativo web
 
-Estado del arte
-
-- Rappi: Es una compañía multinacional colombiana que actúa como portal de contacto, una de las características que define Rappi es la ancha gama de productos y servicios disponibles para la entrega, en palabras de su cofundador, busca ser una “tienda de todo”. La aplicación móvil permite a los consumidores pedir domicilio de su supermercado, comida y medicamentos de farmacias entre otras funciones.
-
 Justificación
 
 Estamos realizando este proyecto con la mentalidad de optimizar el proceso mediante el cual una persona busca y adquiera un medicamento en específico ya sea nacional o internacional, consideramos que usar las TIC como herramienta para optimizar dicho proceso.
@@ -34,6 +30,10 @@ Estamos realizando este proyecto con la mentalidad de optimizar el proceso media
 Este proyecto será mediante un aplicativo web conectaremos al cliente con la/las farmacias que tengan disponibilidad del medicamento requerido, el cliente decidirá que proveedor contactar en base a precio y/o facilidad para el envío del medicamento.
 
 La idea principal de este aplicativo web es hacer el proceso transparente al cliente, conectarlo directamente con el medicamento sin que este tenga que buscar previamente por una farmacia o distribuidor, puesto que ciertos medicamentos deben ser administrados con urgencia, de lo contrario tendría consecuencias en la salud de la persona.
+
+Estado del arte
+
+- Rappi: Es una compañía multinacional colombiana que actúa como portal de contacto, una de las características que define Rappi es la ancha gama de productos y servicios disponibles para la entrega, en palabras de su cofundador, busca ser una “tienda de todo”. La aplicación móvil permite a los consumidores pedir domicilio de su supermercado, comida y medicamentos de farmacias entre otras funciones.
 
 Mockups
 
