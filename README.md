@@ -13,6 +13,10 @@ La búsqueda de los medicamentos que hay en un inventario de una farmacia es muy
 
 El valor agregado de nuestra idea es la transparencia que le ofrecemos a las personas que están buscando sus medicamentos y la importancia de la salud de las personas porque algunos medicamentos no están en algunas farmacias
 
+Tema:
+
+Salud, medicamentos nacionales e internacionales y domicilios para las personas que estan buscando un medicamento en específico.
+
 Objetivo general:
 
 Buscar la manera de optimizar la búsqueda de un medicamento internacional que requiera la persona mediante un desarrollo web que permita disminuir la dificultad de encontrar un medicamento que este en Colombia, facilitando a las farmacias un medio por el cuál puedan ofrecer sus medicamentos de manera ágil y con un gran alcance, y brindando a las personas una app web con una gran oferta de medicamentos.
