@@ -13,15 +13,15 @@ La búsqueda de los medicamentos que hay en un inventario de una farmacia es muy
 
 El valor agregado de nuestra idea es la transparencia que le ofrecemos a las personas que están buscando sus medicamentos y la importancia de la salud de las personas porque algunos medicamentos no están en algunas farmacias
 
-Tema:
+Tema
 
 Salud, medicamentos nacionales e internacionales y domicilios para las personas que estan buscando un medicamento en específico.
 
-Objetivo general:
+Objetivo general
 
 Buscar la manera de optimizar la búsqueda de un medicamento internacional que requiera la persona mediante un desarrollo web que permita disminuir la dificultad de encontrar un medicamento que este en Colombia, facilitando a las farmacias un medio por el cuál puedan ofrecer sus medicamentos de manera ágil y con un gran alcance, y brindando a las personas una app web con una gran oferta de medicamentos.
 
-Objetivos específicos:
+Objetivos específicos
 
 - Diseño del flujo de navegación y la interacción con los usuarios del aplicativo web.
 - Desarrollo de las principales vistas front-end del aplicativo web (sign-in, sign-up, home y carrito de compras)
@@ -39,7 +39,7 @@ Estado del arte
 
 - Rappi: Es una compañía multinacional colombiana que actúa como portal de contacto, una de las características que define Rappi es la ancha gama de productos y servicios disponibles para la entrega, en palabras de su cofundador, busca ser una “tienda de todo”. La aplicación móvil permite a los consumidores pedir domicilio de su supermercado, comida y medicamentos de farmacias entre otras funciones.
 
-Mockups
+Mock-ups
 
 ![Vista_Inicio](https://user-images.githubusercontent.com/87957492/129115511-b9de05d3-47f6-423b-a0cb-18aed32ac196.JPG)
 ![Vista_ResultadoBusqueda](https://user-images.githubusercontent.com/87957492/129115519-3600cca9-4a07-4766-991d-df27a8d60d26.JPG)
@@ -47,7 +47,7 @@ Mockups
 ![Vista_InicioSesion](https://user-images.githubusercontent.com/87957492/129115533-dc4b71bc-2b9e-449b-bc26-6fecb8326eab.JPG)
 ![Vista_Registrarse](https://user-images.githubusercontent.com/87957492/129115535-a8211acd-40f6-4809-afc7-b1b0fb755bc5.JPG)
 
-Bibliografía:
+Bibliografía
 
 https://blog.rappi.com/que-es-rappi/ 
 
