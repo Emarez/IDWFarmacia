@@ -1,0 +1,5 @@
+Descripcion de la aplicacion 
+
+La aplicacion tendra una base de datos en donde se guardaran los datos de los productos, su descripcion, precio cantidad, stock etc.
+
+Adiccionalmente se contara con una nube en el cual se guardara esta informacion de forma que se actualice en tiempo real la informacion con la pagina y la base de datos que se maneje fisicamente en la drogreria.
