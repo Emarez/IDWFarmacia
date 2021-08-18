@@ -47,4 +47,8 @@ Mockups
 ![Vista_InicioSesion](https://user-images.githubusercontent.com/87957492/129115533-dc4b71bc-2b9e-449b-bc26-6fecb8326eab.JPG)
 ![Vista_Registrarse](https://user-images.githubusercontent.com/87957492/129115535-a8211acd-40f6-4809-afc7-b1b0fb755bc5.JPG)
 
+Bibliografía:
 
+https://blog.rappi.com/que-es-rappi/ 
+
+- En cuanto al servicio de farmacia, la idea es que te compremos los medicamentos que necesites, por ejemplo, para aquellas noches en que la maluquera o indisposición te impida salir a la calle a buscarlo, al igual que otros artículos de aseo personal y perfumería, pues queremos que tengas toda a la mano y a tu alcance en minutos, garantizándote un servicio de calidad, dado que contamos con un equipo humano comprometido de más de 700 Rappitenderos (Colombia).
