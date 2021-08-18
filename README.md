@@ -55,7 +55,7 @@ Buscar la manera de optimizar la búsqueda de un medicamento internacional que r
 
 10. Descripcion de la aplicacion 
 
-La aplicacion tendra una base de datos en donde se guardaran los datos de los productos, su descripcion, precio cantidad, stock etc.
+La aplicacion tendra una base de datos en donde se guardaran los datos de los productos, su descripcion, precio cantidad, stock, datos del usuario y de los trabajadores.
 
 Adiccionalmente se contara con una nube en el cual se guardara esta informacion de forma que se actualice en tiempo real la informacion con la pagina y la base de datos que se maneje fisicamente en la drogueria.
 
