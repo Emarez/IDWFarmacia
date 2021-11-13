@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <script src="script.js"></script>
+    <title>Homepage</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="item-header">
+                <header class="header">
+                    <nav class="menu">
+                        <ul class="menu-items">
+                            <li class="menu-items-elemento menu-logo">
+                                <a href="index.html">
+                                  <img src="images/logo.jpeg" alt="logo" class="logo">
+                                </a>
+                            </li>
+                            <li class="menu-items-a menu-medicamentos">
+                                <a href="category/medicamentos.html">Medicamentos</a>
+                            </li>
+                            <li class="menu-items-a menu-bebes">
+                                <a href="category/bebes.html">Bebes</a>
+                            </li>
+                            <li class="menu-items-a menu-belleza">
+                                <a href="category/belleza.html">Belleza</a>
+                            </li>
+                            <li class="menu-items-a menu-cuidado-personal">
+                                <a href="category/cuidado-personal.html">Cuidado personal</a>
+                            </li>
+                            <li class="menu-items-a menu-mas">
+                                <div class="dropdown">
+                                    <button class="dropdown-button">Mas</button>
+                                    <div class="dropdown-content">
+                                        <a href="category/extra.html"> Extra </a>
+                                        <a href="category/extra.html"> Extra</a>
+                                        <a href="category/extra.html"> Extra</a>
+                                        <a href="category/extra.html"> Extra </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-items-elemento menu-buscador">
+                                <form class="sform">
+                                    <input type="text" placeholder="Buscar" class="buscador" required style="box-shadow: none">
+                                    <button type="submit">
+                                        <img src="images/search.svg" alt="search logo" id="slogo">
+                                    </button>
+                                </form>
+                            </li>
+                            <li class="menu-items-elemento menu-inicio-sesion">
+                                <a href="category/inicio-sesion.html">Inicio sesion</a>
+                            </li>
+                            <li class="menu-items-elemento registrarse">
+                                <a href="category/registrarse.html">Registrarse</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="banner">
+                                                 <!-- Slideshow container -->
+                        <div class="slideshow-container">
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade mySlides1" >
+                                <a href="category/promociones.html">
+                                    <img src="images/banner-image.jpeg" class="bannerimg">
+                                </a>
+                            </div>
+                            <div class="mySlides fade">
+                                <a href="category/promociones.html">
+                                    <img src="images/banner-image2.jpeg" class="bannerimg">
+                                </a>
+                            </div>
+                            <div class="mySlides fade">
+                                <a>
+                                    <img src="images/banner-image.jpeg" class="bannerimg">
+                                </a>
+                            </div>
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                          <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div class="item-aside">
+                <div class="aside-container">
+                    <ul class="category-list">
+                        <li class="categorymain">
+                             <p>Categorias</p>
+                        </li>
+                        <li class="categoryitemlist">
+                            <a href="category/extra.html">Categoria 1</a>
+                        </li>
+                        <li class="categoryitemlist">
+                            <a href="category/extra.html">Categoria 2</a>
+                        </li>
+                        <li class="categoryitemlist">
+                            <a href="category/extra.html">Categoria 3</a>
+                        </li>
+                        <li class="categoryitemlist">
+                            <a href="category/extra.html">Categoria 4</a>
+                        </li>
+                        <li class="categoryitemlist">
+                            <a href="category/extra.html">Categoria 5</a>
+                        </li>
+                        <li class="categoryitemlist">
+                            <a href="category/extra.html">Categoria 6</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-main-content">
+                <div class="maincontentcontainer">
+                    <h2 class="itemstittle">Carrito</h2>
+                    <div class="car-options">
+                        <div>
+                            <select name="" id="">
+                                <option value="">Ordenar más caro primero</option>
+                                <option value="">Ordenar más barato primero</option>
+                            </select>
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <path fill="none" d="M16.803,18.615h-4.535c-1,0-1.814-0.812-1.814-1.812v-4.535c0-1.002,0.814-1.814,1.814-1.814h4.535c1.001,0,1.813,0.812,1.813,1.814v4.535C18.616,17.803,17.804,18.615,16.803,18.615zM17.71,12.268c0-0.502-0.405-0.906-0.907-0.906h-4.535c-0.501,0-0.906,0.404-0.906,0.906v4.535c0,0.502,0.405,0.906,0.906,0.906h4.535c0.502,0,0.907-0.404,0.907-0.906V12.268z M16.803,9.546h-4.535c-1,0-1.814-0.812-1.814-1.814V3.198c0-1.002,0.814-1.814,1.814-1.814h4.535c1.001,0,1.813,0.812,1.813,1.814v4.534C18.616,8.734,17.804,9.546,16.803,9.546zM17.71,3.198c0-0.501-0.405-0.907-0.907-0.907h-4.535c-0.501,0-0.906,0.406-0.906,0.907v4.534c0,0.501,0.405,0.908,0.906,0.908h4.535c0.502,0,0.907-0.406,0.907-0.908V3.198z M7.733,18.615H3.198c-1.002,0-1.814-0.812-1.814-1.812v-4.535c0-1.002,0.812-1.814,1.814-1.814h4.535c1.002,0,1.814,0.812,1.814,1.814v4.535C9.547,17.803,8.735,18.615,7.733,18.615zM8.64,12.268c0-0.502-0.406-0.906-0.907-0.906H3.198c-0.501,0-0.907,0.404-0.907,0.906v4.535c0,0.502,0.406,0.906,0.907,0.906h4.535c0.501,0,0.907-0.404,0.907-0.906V12.268z M7.733,9.546H3.198c-1.002,0-1.814-0.812-1.814-1.814V3.198c0-1.002,0.812-1.814,1.814-1.814h4.535c1.002,0,1.814,0.812,1.814,1.814v4.534C9.547,8.734,8.735,9.546,7.733,9.546z M8.64,3.198c0-0.501-0.406-0.907-0.907-0.907H3.198c-0.501,0-0.907,0.406-0.907,0.907v4.534c0,0.501,0.406,0.908,0.907,0.908h4.535c0.501,0,0.907-0.406,0.907-0.908V3.198z"></path>
+                            </svg>
+                        </div>
+                        <button>Pagar</button>
+                    </div>
+                    <div class="car-products">
+                        <div class="itemsdestacados">
+                            <div class="itemdestacado">
+                                <a href="category/producto.html">
+                                    <div class="containeritemdestacado">
+                                        <img src="images/producto1.png" class="imgitemdestacado1">
+                                        <div>
+                                            <h3 class="tituloitemdestacado1">Prestobarba</h3>
+                                            <p class="preciodestacado1">Precio: $30.320</p>
+                                            <p class="descriptionitemdestacado1">Repuesto GILLETTE MACH 3</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="itemdestacado">
+                                <a href="category/producto.html">
+                                    <div class="containeritemdestacado">
+                                        <img src="images/producto2.jpg" class="imgitemdestacado2">
+                                        <div>
+                                            <h3 class="tituloitemdestacado2">Polvo</h3>
+                                            <p class="descriptionitemdestacado2">BESTSURE FORTE</p>
+                                            <p class="preciodestacado2">Precio: $39.820</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="itemsdestacados">
+                            <div class="itemdestacado">
+                                <a href="category/producto.html">
+                                    <div class="containeritemdestacado">
+                                        <img src="images/producto3.png" class="imgitemdestacado">
+                                        <div>
+                                            <h3 class="tituloitemdestacado">Aerosol</h3>
+                                            <p class="precioitemdestacado">Precio: $10.750</p>
+                                            <p class="descriptionitemdestacado3">LYSOL AEROSOL</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="itemdestacado">
+                                <a href="category/producto.html">
+                                    <div class="containeritemdestacado">
+                                        <img src="images/producto4.png" class="imgitemdestacado">
+                                        <div>
+                                            <h3 class="tituloitemdestacado">Desodorante</h3>
+                                            <p class="precioitemdestacado">Precio: $26.100</p>
+                                            <p class="descriptionitemdestacado">DESODORANTE OLDSPICE SECO x2</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="itemsdestacados">
+                            <div class="itemdestacado">
+                                <a href="category/producto.html">
+                                    <div class="containeritemdestacado">
+                                        <img src="images/producto1.png" class="imgitemdestacado">
+                                        <div>
+                                            <h3 class="tituloitemdestacado">Prestobarba</h3>
+                                            <p class="precioitemdestacado">Precio: $30.320</p>
+                                            <p class="descriptionitemdestacado">Repuesto GILLETTE MACH 3</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="itemdestacado">
+                                <a href="category/producto.html">
+                                    <div class="containeritemdestacado">
+                                        <img src="images/producto5.png" class="imgitemdestacado">
+                                        <div>
+                                            <h3 class="tituloitemdestacado">Tapabocas</h3>
+                                            <p class="precioitemdestacado">Precio: $6.000</p>
+                                            <p class="descriptionitemdestacado">TAPABOCAS TERMOSELLADO</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="car-total">
+                            <p>Total a pagar: $143.220</p>
+                            <p>Total productos: 6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-footer">
+                <div class="footer-container">
+                    <ul class="footeritems">
+                        <li class="footeritem">
+                            <img src="images/logo.jpeg" alt="logo">
+                        </li>
+                        <li class="footeritem">
+                            <h3>Informacion</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, in voluptas delectus sapiente deserunt libero dolor ex? Delectus eum tempora atque. Blanditiis dignissimos optio at magnam accusamus quidem totam exercitationem!</p>
+                        </li>
+                        <li class="footeritem">
+                            <h3>Redes Sociales </h3>
+                            <ul class="medialist">
+                                <li class="smlogos">
+                                    <a href="category/social-media.html"><img src="images/instagramlogo.svg" alt="instagramlogo" class="smlogo"></a>
+                                </li>
+                                <li class="smlogos">
+                                    <a href="category/social-media.html"><img src="images/mailogosvg.svg" alt="maillogo" class="smlogo"></a>
+                                </li>
+                                <li class="smlogos">
+                                    <a href="category/social-media.html"><img src="images/twitterlogo.svg" alt="twitterlogo" class="smlogo"></a>
+                                </li>
+                                <li class="smlogos">
+                                    <a href="category/social-media.html"><img src="images/youtubelogo.svg" alt="youtubelogo" class="smlogo"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footeritem">
+                            <h3>Datos de contacto</h3>
+                            <ul class="datoscontacto">
+                                <li class="datocontacto">Telefono</li>
+                                <li class="datocontacto">Direccion</li>
+                                <li class="datocontacto">Horario de atencion</li>
+                                <li class="datocontacto">Ciudades</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
