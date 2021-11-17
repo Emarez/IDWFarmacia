@@ -1,0 +1,485 @@
+.container{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 450px 1000px ;
+    gap: 5px;
+    background-color: #494F52;
+    color: white;
+}
+.item{
+    border: 1px solid black;
+}
+.item-header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.item-footer{
+    grid-column: 1/3;
+    grid-row-start: 3;
+}
+/* ------------------------------------Header------------------------------*/
+/* ------------------------------ Menu ---------------------------------------- */
+.menu-items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+}
+.menu-items-a{
+    overflow: hidden;
+    height: 65px;
+    width: auto;
+}
+.menu-items li{
+    float: left;
+    align-self: center;
+}
+.menu-items-elemento{
+    text-align: center;
+    display: block;
+}
+.menu-items a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+
+}
+.menu-items-a:hover{
+    background-color: #111;
+    font-size: 110%;
+    display: block;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.dropdown-button{
+ padding: 20px;
+}
+.dropdown .dropdown-button{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #333333;
+    margin: 0px;
+
+}
+.dropdown:hover .dropdown-button {
+    background-color: #111;
+    font-size: 110%
+}
+.dropdown-button:hover{
+    font-size: 110%
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: black;
+    font-size: 110%
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.menu{
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: #333333;
+}
+.header{
+    height: 100%;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin:-20px;
+}
+.buscador{
+    background-color: whitesmoke;
+    border:transparent;
+    text-align: 23px;
+    border-radius: 90px;
+}
+.menu-items-elemento form button{
+    float: right;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    background: whitesmoke;
+    border-radius: 90px;
+}
+#slogo{
+    width: 65%;
+}
+/* ---------------------------------- banner ------------------------------------*/
+.banner{
+    height: 350px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+.mySlides1{
+    display: block;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: wheat;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.bannerimg{
+    height: 280px;
+    width: 800px;
+    margin-left: 97px;
+}
+
+/* ------------------------------- Aside -----------------------------------*/
+.listoptions{
+    height: 490px;
+    width: 80%;
+    padding-top: 20px;
+}
+.aside-container{
+    background-color: #333333;
+    margin: 10px;
+    height: 250px;
+}
+#myBtnContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.aside-container h2{
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 0px;
+}
+/* #tittle-option1, #title-option2{
+} */
+
+/* ----------------------------------------------Footer ----------------------------------------------*/
+.item-footer{
+    width: 99.8%;
+}
+.footer-container{
+    width: 99.8%;
+    background-color: #D5D5D3;
+    height: 215px;
+}
+.footeritems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-left: 0px;
+}
+.footeritem{
+    width: 200px;
+}
+.footeritem h3{
+    margin: 0px;
+    font-weight: normal;
+}
+.footeritem p{
+    font-size: 12px;
+}
+.footeritems img{
+    width: 160px;
+    height: 160px;
+    padding-left: 10px;
+}
+.smlogos img{
+    width: 30px;
+    height: 30px;
+}
+.footeritem h3{
+    padding-bottom: 10px;
+}
+.medialist{
+    padding: 0px;
+}
+.datoscontacto{
+    padding: 0px;
+}
+.datocontacto{
+    display: block;
+}
+
+/*----------------------------------------------main content ------------------------------*/
+.products{
+    display: grid;
+    width: 90%;
+    height: 90%;
+}
+ #itemoferta1{
+    grid-area: 1/1;
+}
+#itemoferta2{
+    grid-area: 1/2;
+}
+
+#itemoferta3{
+    grid-area: 1/3;
+}
+
+#itemoferta4{
+    grid-area: 1/4;
+}
+#itemoferta, #itemoferta1, #itemoferta2, #itemoferta3, #itemoferta4{
+    border: #333333 2px solid;
+    background-color: #D5D5D3;
+    width: 180px;
+}
+#itemoferta img, #itemoferta1 img, #itemoferta2 img, #itemoferta3 img, #itemoferta4 img {
+    width: 90px;
+    height: 90px;
+}
+
+#itemoferta:hover, #itemoferta1:hover, #itemoferta2:hover, #itemoferta3:hover, #itemoferta4:hover{
+    background-color: #A9A9A9 ;
+    font-size: 105%;
+}
+.item-main-content{
+    margin-left: 100px;
+}
+.filteroptions{
+    padding: 0px;
+}
+.itemstittle{
+    padding-left: 40px;
+}
+#itemoferta, #itemoferta1, #itemoferta2, #itemoferta3, #itemoferta4{
+    border: gainsboro 3px solid;
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #494F52;
+}
+.filterDiv {
+    display: none;
+}
+.containeritemoferta{
+    text-align: center;
+}
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #494F52;
+  cursor: pointer;
+  border: #303436 solid 2px;
+  width: 205px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #494F52;
+  color: white;
+}
+.options-tittle{
+    font-size: 40px;
+}
+.filterby{
+    font-size: 20px;
+}
+/* ---------------------------------- */
+.dropdown-filters{
+    float: left;
+    overflow: hidden;
+    height: 100%;
+    width: 90%;
+    background-color: white;
+}
+.dropdown-filterbutton{
+ padding: 20px;
+ background-color: white;
+ border: gainsboro 2px solid;
+ color: #111;
+}
+.dropdown-filters{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #D5D5D3;
+    margin: 0px;
+
+}
+.dropdown-filters:hover .dropdown-filterbutton:hover {
+    background-color: #D5D5D3;
+    font-size: 110%
+}
+.filteroptions {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+.filteroptions button{
+    float: none;
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color:black;
+}
+.filteroptions button:hover {
+    background-color: #D5D5D3;
+    font-size: 110%;
+}
+.dropdown-filters:hover .filteroptions {
+    display: block;
+}
+.filt{
+    width: 100%;
+}
+/*-----------------------------banner slider -------------------------*/
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+.mySlides1{
+    display: block;
+}
+/* Next & previous buttons */
+.previ, .nexti {
+  cursor: pointer;
+  width: auto;
+  color: #333333;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  padding-left: 23px;
+  align-self: center;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.nexti {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.previ:hover, .nexti:hover {
+  background-color: wheat;
+}
+/* The dots/bullets/indicators */
+
+.active{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.bannerimg{
+    height: 280px;
+    width: 800px;
+    margin-left: 97px;
+}
