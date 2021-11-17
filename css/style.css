@@ -3,6 +3,8 @@
     grid-template-columns: 15% 85%;
     grid-template-rows: 450px 1000px ;
     gap: 5px;
+    background-color: #181A1B;
+    color: white;
 }
 .item{
     border: 1px solid black;
@@ -19,16 +21,18 @@
 /* ------------------------------ Menu ---------------------------------------- */
 .menu-items{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px;
     padding: 0px;
+    margin: 0px;
 }
 .menu-items-a{
     overflow: hidden;
+    height: 65px;
+    width: auto;
 }
 .menu-items li{
     float: left;
+    align-self: center;
 }
 .menu-items-elemento{
     text-align: center;
@@ -39,8 +43,12 @@
     color: white;
     text-align: center;
     text-decoration: none;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+
 }
-.menu-items a:hover{
+.menu-items-a:hover{
     background-color: #111;
     font-size: 110%;
     display: block;
@@ -48,6 +56,11 @@
 .dropdown{
     float: left;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.dropdown-button{
+ padding: 20px;
 }
 .dropdown .dropdown-button{
     font-size: 16px;
@@ -55,11 +68,12 @@
     outline: none;
     color: white;
     background-color: #333333;
-    margin: 0;
+    margin: 0px;
+
 }
 .dropdown:hover .dropdown-button {
     background-color: #111;
-    font-size: 110%s
+    font-size: 110%
 }
 .dropdown-button:hover{
     font-size: 110%
@@ -87,9 +101,9 @@
     display: block;
 }
 .menu{
-     border: 1px solid black;
-     color: whitesmoke;
-     background-color: #333333;
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: #333333;
 }
 .header{
     height: 100%;
@@ -210,6 +224,13 @@
     justify-content: space-evenly;
     margin-left: 10px;
 }
+.category-list a{
+    padding: 20px;
+}
+.category-list a:hover{
+    background-color: #A9A9A9 ;
+    font-size: 150%;
+}
 .categorymain{
     text-align: center;
     background-color:#333333 ;
@@ -221,10 +242,9 @@
     color: whitesmoke;
 }
 .categoryitemlist{
-    padding-top: 25px;
     height: 90px;
     text-align: center;
-    border:gray 1px solid;
+    border:gray 1.5px solid;
 }
 .categoryitemlist a{
     display: block;
@@ -287,6 +307,11 @@
     display: flex;
     justify-content: space-evenly;
 }
+.itemdestacadocontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
 .itemstittle{
     padding-left: 40px;
 }
@@ -302,6 +327,71 @@
     background-color: #D5D5D3;
     width: 180px;
 }
+.itemdestacado:hover ,.itemoferta:hover, .itemmas:hover{
+    background-color: #A9A9A9 ;
+    font-size: 105%;
+}
 .containeritemdestacado, .containeritemoferta, .containeritemmas{
     text-align: center;
+}
+/*-----------------------------banner slider -------------------------*/
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+.mySlides1{
+    display: block;
+}
+/* Next & previous buttons */
+.previ, .nexti {
+  cursor: pointer;
+  width: auto;
+  color: #333333;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  padding-left: 23px;
+  align-self: center;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.nexti {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.previ:hover, .nexti:hover {
+  background-color: wheat;
+}
+/* The dots/bullets/indicators */
+
+.active{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.bannerimg{
+    height: 280px;
+    width: 800px;
+    margin-left: 97px;
 }
